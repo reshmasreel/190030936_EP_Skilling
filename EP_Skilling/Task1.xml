@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Task1.xsl"?>
+<Student xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Task1.xsd">
+	<student id="a">
+		<no>190030936</no>
+		<name>Reshmasree</name>
+		<email>190030936@kluniversity.in</email>
+		<marks>96</marks>
+		<class>A</class>
+	</student>
+	<student id="b">
+		<no>190030065</no>
+		<name>Bhuvana</name>
+		<email>190030065@kluniversity.in</email>
+		<marks>94</marks>
+		<class>B</class>
+	</student>
+	<student id="c">
+		<no>190031824</no>
+		<name>Amruta</name>
+		<email>190031824@kluniversity.in</email>
+		<marks>92</marks>
+		<class>B</class>
+	</student>
+	<student id="d">
+		<no>190030301</no>
+		<name>Kundana</name>
+		<email>190030301@kluniversity.in</email>
+		<marks>90</marks>
+		<class>D</class>
+	</student>
+	<student id="e">
+		<no>190031767</no>
+		<name>Bhavya</name>
+		<email>190031767@kluniversity.in</email>
+		<marks>89</marks>
+		<class>C</class>
+	</student>
+</Student>
