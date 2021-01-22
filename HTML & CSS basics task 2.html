@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Student Registration page</title>
+  <link rel = "stylesheet" href = "2ndWork.css">
+</head>
+<body>
+
+<form>
+   <table align = "center">
+  <div class="container">
+  <div class="headco">
+    <h2 align = "center">Student Registration page</h2>
+    <p align = "center">Fill your details below to get registered</p>
+  </div>
+    <hr>
+    
+    <tr><td><label for="id"><b>Student ID</b></label></td>
+    <td><input type="text" placeholder="eg: 190030936" name="id" id="id" required><br></td></tr>
+
+    <tr><td><label for="name"><b>Student Name</b></label></td>
+    <td><input type="name" placeholder="eg: reshmasree" name="name" id="name" required><br></td></tr>
+
+    <tr><td><label for="email"><b>Student Email Address</b></label></td>
+    <td><input type="email" placeholder="eg: 190030936@kluniversity.in" name="email" id="email" required><br></td></tr>
+
+    <tr><td><label for="id"><b>Student Address</b></label></td>
+    <td><textarea type="text" placeholder="eg: 70-12-31, KL House etc.." name="address" id="address" required></textarea><br></td></tr>
+
+    <tr><td><label for="psw"><b>Password</b></label></td>
+    <td><input type="password" placeholder="Enter Password" name="psw" id="psw" required><br></td></tr>
+
+    <tr><td><label for="cpsw"><b>Confirm Password</b></label></td>
+    <td><input type="cpassword" placeholder="Confirm Password" name="cpsw" id="cpsw" required><br></td></tr>
+
+    <hr>
+    
+    <tr><td><h4>Gender</h4></td>
+    <td>
+  		<input type="radio" id="male" name="gender" value="male">
+  		<label for="male">Male</label><br>
+  		<input type="radio" id="female" name="gender" value="female">
+  		<label for="female">Female</label><br>
+  		<input type="radio" id="other" name="gender" value="other">
+		<label for="other">Other</label>
+    </td>
+    </tr>
+
+        <h3 align = "center" style=color:"blue">Student Details</h3>
+	<tr><td><label for="subject">Your favourite subject</label></td>
+  	<td><select name="sub" id="sub">
+    	<option value="C">C</option>
+    	<option value="Python">Python</option>
+    	<option value="Java">Java</option>
+    	<option value="HTML">HTML</option>
+  	</select>
+  	<br><br>
+	</td></tr>
+	<tr><td><label for="sport">Your favourite sport</label></td>
+  	<td><select name="sport" id="sport">
+    	<option value="Cricket">Cricket</option>
+    	<option value="Hockey">Hockey</option>
+    	<option value="Badminton">Badminton</option>
+    	<option value="Volly ball">Volly ball</option>
+  	</select><br>
+	</td></tr>
+    <tr><td><button type="submit" class="registration" align = "center">Register</button></td></tr>
+  </div>
+  
+</form>
+
+
+</body>
+</html>
